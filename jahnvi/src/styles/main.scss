@@ -1,10 +1,37 @@
 @import "~bootstrap/scss/bootstrap";
 
+//! Navbar
 .logo {
-  height: 40px;
+  height: 10vh;
   background: transparentize($color: white, $amount: 0.7);
 }
-
+nav {
+  margin-top: 2vh;
+} 
 a.nav-link {
+  color: black !important;
   font-family: 'Roboto Mono', monospace;
+}
+//! Homepage
+.homepage-container {
+  height: 85vh;
+  width: 100vw;
+  border: solid pink 20px;
+}
+.block {
+  position: absolute;
+  list-style: none;
+  border: black solid 5px;
+}
+.block-one {
+  height: 30vh;
+  width: 50vw;
+}
+.block-two {
+  height: 50vh;
+  width: 30vw;
+}
+.block-three {
+  height: 50vh;
+  width: 30vw;
 }

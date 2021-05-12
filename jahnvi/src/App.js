@@ -1,5 +1,6 @@
 import React from 'react'
 import MyNavbar from './Navbar'
+import Homepage from './components/Homepage'
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <MyNavbar />
-      <h1>Hello World</h1>
+      <Homepage />
     </>
   )
 

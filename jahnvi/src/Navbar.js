@@ -7,7 +7,7 @@ import logo from './assets/text-1620824259728.png'
 const MyNavbar = () => {
 
   return (
-    <Navbar expand="lg" variant="light" className="justify-content-between">
+    <Navbar expand="lg" className="justify-content-between">
       <Navbar.Brand href="/"><img alt='logo' className="logo" src={logo} /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
