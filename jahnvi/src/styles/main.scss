@@ -45,9 +45,6 @@ a.nav-link {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
   // border: solid black 5px;
 }
-.icon {
-  height: 5vh;
-}
 body::before {
   content: 'JAHNVI PATEL';
   left: 0vw;
@@ -64,3 +61,22 @@ body::before {
   width: 40%;
   height: 25vh;
 }
+.title {
+  position: absolute;
+  text-align: right;
+  margin-left: 45vw;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  font-size: 4rem;
+  letter-spacing: 2rem;
+  width: 55vw;
+  top: 37vh;
+}
+.icons {
+  position: absolute;
+  bottom: 0;
+}
+.icon {
+  height: 5vh;
+}
+
