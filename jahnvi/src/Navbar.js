@@ -1,7 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import React from 'react'
-import logo from './assets/text-1620824259728.png'
+import logo from './assets/50c1610064e14d1aa26e5c7cf69b67a5 (4).png'
 
 
 const MyNavbar = () => {
