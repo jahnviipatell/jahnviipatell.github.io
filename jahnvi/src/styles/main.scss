@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/bootstrap";
+
+.logo {
+  height: 40px;
+  background: transparentize($color: white, $amount: 0.7);
+}
+
+a.nav-link {
+  font-family: 'Roboto Mono', monospace;
+}
