@@ -52,10 +52,11 @@ a.nav-link {
   letter-spacing: 3vw;
   width: 55vw;
 }
+//! Footer
 .icons {
   width: 100vw;
   background: transparentize($color: #000000, $amount: 0.9);
-  height: 10vh;
+  height: 8vh;
   position: absolute;
   bottom: 0;
   display: flex;
@@ -64,7 +65,7 @@ a.nav-link {
   z-index: 2;
 }
 .icon {
-  height: 5vh;
+  height: 4vh;
   padding: 0 1vw;
 }
 button {
@@ -113,7 +114,10 @@ button {
   font-size: 1.95vh;
 }
 .skills-container {
-  width: 50vw;
+  width: 48vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   // border: solid black 5px;
 }
 .skills {
@@ -126,10 +130,6 @@ button {
   max-height: 10vh;
   max-width: 5vw;
 }
-.skill-icon-import {
-  color: white;
-}
-
 h6 {
   margin-bottom: 0;
   padding-top: 1vh;
@@ -137,8 +137,13 @@ h6 {
 .skill {
   display: flex;
   flex-direction: column;
-  margin: 2.5vh;
   align-items: center;
+  // border: solid black 5px;
+  width: 11vw;
+  margin-top: 3vh;
+}
+.django {
+  padding-bottom: 2vh;
 }
 
 @keyframes hide  { to { visibility: hidden; } }
@@ -151,6 +156,26 @@ h6 {
   font-size: 4vh;
   padding-left: 2vw;
   height: 12vh;
+  }
+  .main-layout {
+    display: inline-block;
+    margin-top: 10vh;
+    width: 100vw;
+  }
+  .about-me-container {
+    width: 95vw;
+    height: 30vh;
+    font-size: 1.7vh;
+    margin: 0 auto;
+  }
+  .skills-container {
+    margin-top: 10vh;
+    height: 50vh;
+    width: 100vw;
+  }
+  .skill {
+    font-size: 1.5vh;
+    width: 20vw;
   }
 
 }
