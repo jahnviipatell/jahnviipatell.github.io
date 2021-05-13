@@ -101,19 +101,29 @@ const Skills = () => {
               <div className="ed-lines"></div>
               <ul className="education-ul">
                 <li className="education-li">
-                  <p>GENERAL ASSEMBLY, London (February-May/2021)
+                  <p><b>GENERAL ASSEMBLY, London</b>
+                    <br />
+                    <i>(February-May/2021)</i>
+                    <br />
+                    <br />
                     <br />
                     Software Engineering Immersive
                   </p>
                 </li>
                 <li className="education-li">
-                  <p>Graduate Engineer HEATHROW AIRPORT LTD., London
+                  <p><b>HEATHROW AIRPORT LTD., London</b>
                     <br />
-                    (September/2019–January/2021)
+                    <i>(September/2019–January/2021)</i>
+                    <br />
+                    <br />
+                    Graduate Engineer
                   </p>
                 </li>
                 <li className="education-li">
-                  <p>BRUNEL UNIVERSITY, London (September/2014–September/2020)
+                  <p className="brunel"><b>BRUNEL UNIVERSITY, London</b>
+                    <br />
+                    <i>(September/2014–September/2020)</i>
+                    <br />
                     <br />
                     Aerospace Engineering (BEng)
                   </p>

@@ -182,7 +182,7 @@ button {
 //! Education
 .education-container {
   width: 55vw;
-  height: 43vh;
+  height: 34.4vh;
   // border: solid black 5px;
   text-align: left;
   margin: 0 auto;
@@ -194,13 +194,17 @@ button {
 }
 .education-ul {
   display: flex;
+  // flex-direction: column;
+  // flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 3vh;
+  // margin-top: 3vh;
   border-bottom: solid white 1vh;
-  border-right: solid white 1vh;
+  border-left: solid white 1vh;
+  height: 87%;
+  padding-top: 6vh;
 }
 .education-li {
-  width: 45%;
+  width: 33%;
 }
 .ed-lines {
   border: solid white 2vh;
@@ -211,6 +215,9 @@ button {
 }
 li {
   list-style: none;
+}
+.right-text {
+  margin-top: 4vh;
 }
 
 @keyframes hide  { to { visibility: hidden; } }
