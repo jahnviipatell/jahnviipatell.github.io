@@ -53,11 +53,18 @@ a.nav-link {
   width: 55vw;
 }
 .icons {
+  width: 100vw;
+  background: transparentize($color: #ffffff, $amount: 0.8);
+  height: 9vh;
   position: absolute;
   bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .icon {
   height: 5vh;
+  padding: 0 1vw;
 }
 
 @media only screen and (max-width: 626px) {
