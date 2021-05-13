@@ -23,16 +23,24 @@ const Skills = () => {
       <div className="blank-background-overlay">
         <div className="main-layout">
           <div className="about-me-container">
-            <h3>Hi, I&apos;m Jahnvi Patel</h3>
+            <h3>About me</h3>
+            <p>Engineer | Traveller | Web Developer</p>
             <p>
               <br />
+              Hi, my name is Jahnvi! I am a junior full-stack web developer & a keen traveller.
               <br />
-              I am a plainspoken junior developer regarded for my compassion, logic, and creativity. I have a background in mechanical engineering with a proven ability to serve all projects with a methodical approach and focus on inclusiveness. <br />
               <br />
-              Changing careers to allow myself to see my solutions implemented and follow projects through to the end of their life-cycle. Motivated to work as part of a diverse team or as an individual contributor with a strong desire to continuously improve. </p>
+              I&apos;d been considering a career change into software for a while and had been talking with friends about it. One of my friends mentioned a coding boot-camp at General Assembly. I talked to him about it and got very excited. The fact pace, supportive teaching style and challenging curriculum were all right up my alley, and I knew it would be the best way to make a fast transition between careers.
+              <br />
+              <br />
+              I felt stagnant in my career as a graduate mechanical engineer. Project after project, I was carrying out the same tasks and had stopped learning new things.
+              <br />
+              <br />
+              Becoming a web developer is everything I love about engineering: being challenged, solving complex problems and working closely with smart and passionate people. I especially enjoy the culture born of open source collaboration and the fun of learning new things every day.
+            </p>
           </div>
           <div className="skills-container">
-            <h3>Skills</h3>
+            <h3 className="skill-title">Skills</h3>
             <ul className="skills">
               <li className="skill">
                 <img className="skill-icon" src={Nodejs} alt="nodejs" />
@@ -83,6 +91,9 @@ const Skills = () => {
                 <p>React Bootstrap</p>
               </li>
             </ul>
+          </div>
+          <div className="education-container">
+            <h3 className="skill-title">Education</h3>
           </div>
         </div>
       </div>

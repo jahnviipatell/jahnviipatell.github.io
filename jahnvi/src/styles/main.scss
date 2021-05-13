@@ -108,7 +108,7 @@ button {
   font-family: 'Roboto Mono', monospace;
 }
 .about-me-container {
-  width: 24vw;
+  width: 40vw;
   height: 50vh;
   // border: solid black 5px;
   font-size: 1.95vh;
@@ -125,6 +125,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
+  // margin-top: 5vh;
 }
 .skill-icon {
   max-height: 10vh;
@@ -133,6 +134,10 @@ button {
 h6 {
   margin-bottom: 0;
   padding-top: 1vh;
+}
+.skill-title {
+  text-align: left;
+  margin-left: 6vw;
 }
 .skill {
   display: flex;
@@ -164,18 +169,19 @@ h6 {
   }
   .about-me-container {
     width: 95vw;
-    height: 30vh;
-    font-size: 1.7vh;
+    height: 40vh;
+    font-size: 1.25vh;
     margin: 0 auto;
   }
   .skills-container {
     margin-top: 10vh;
-    height: 50vh;
-    width: 100vw;
+    height: 60vh;
+    width: 95vw;
   }
   .skill {
     font-size: 1.5vh;
-    width: 20vw;
+    width: 19vw;
+    margin-top: 0;
   }
 
 }

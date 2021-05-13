@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Homepage from './components/Homepage'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 
 
@@ -14,11 +15,16 @@ function App() {
         <Route exact path="/">
           <Homepage />
         </Route>
-        <Switch>
-          <Route path="/skills">
-            <Skills />
-          </Route>
-        </Switch>
+      </Switch>
+      <Switch>
+        <Route path="/skills">
+          <Skills />
+        </Route>
+      </Switch>
+      <Switch>
+        <Route path="/projects">
+          <Projects />
+        </Route>
       </Switch>
     </BrowserRouter>
   )
