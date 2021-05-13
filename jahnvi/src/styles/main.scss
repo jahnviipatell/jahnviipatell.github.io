@@ -61,6 +61,7 @@ a.nav-link {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 .icon {
   height: 5vh;
@@ -86,6 +87,16 @@ button {
 }
 .copied { 
   animation: hide 0s 4s forwards; 
+}
+.blank-background-overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background: url(../assets/val-toch-BHeQQmZM8jE-unsplash.jpg);
+  background-size: cover;
+  z-index: 1;
 }
 
 @keyframes hide  { to { visibility: hidden; } }
