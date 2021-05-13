@@ -151,6 +151,7 @@ h6 {
 .django {
   padding-bottom: 2vh;
 }
+//! Education
 .education-container {
   width: 55vw;
   height: 43vh;
@@ -162,6 +163,13 @@ h6 {
   display: flex;
   flex-direction: column;
   align-content: flex-end;
+}
+.education-ul {
+  display: flex;
+  justify-content: space-between;
+}
+.education-li {
+  width: 45%;
 }
 
 @keyframes hide  { to { visibility: hidden; } }

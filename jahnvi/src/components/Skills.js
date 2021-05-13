@@ -94,7 +94,14 @@ const Skills = () => {
             </div>
             <div className="education-container">
               <h3>Education</h3>
-              <p>General Assembly</p>
+              <ul className="education-ul">
+                <li className="education-li">
+                  <p>General Assembly</p>
+                </li>
+                <li className="education-li">
+                  <p>Brunel University London</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
