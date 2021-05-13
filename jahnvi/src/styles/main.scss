@@ -98,6 +98,48 @@ button {
   background-size: cover;
   z-index: 1;
 }
+//! Skills
+.main-layout {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  font-family: 'Roboto Mono', monospace;
+}
+.about-me-container {
+  width: 24vw;
+  height: 50vh;
+  // border: solid black 5px;
+  font-size: 1.95vh;
+}
+.skills-container {
+  width: 50vw;
+  // border: solid black 5px;
+}
+.skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.skill-icon {
+  max-height: 10vh;
+  max-width: 5vw;
+}
+.skill-icon-import {
+  color: white;
+}
+
+h6 {
+  margin-bottom: 0;
+  padding-top: 1vh;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5vh;
+  align-items: center;
+}
 
 @keyframes hide  { to { visibility: hidden; } }
 
