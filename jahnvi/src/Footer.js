@@ -17,21 +17,23 @@ const Footer = () => {
   }
 
   return (
-    <div className="icons">
-      <div className="mail-group">
-        <div className="copied">
-          {copySuccess}
+    <div className="footer">
+      <div className="icons">
+        <div className="mail-group">
+          <div className="copied">
+            {copySuccess}
+          </div>
+          <button onClick={() => copyToClipBoard('jahnvi18patel@email.com')}>
+            <img src={Mail} alt="mail" className="icon" />
+          </button>
         </div>
-        <button onClick={() => copyToClipBoard('jahnvi18patel@email.com')}>
-          <img src={Mail} alt="mail" className="icon" />
-        </button>
+        <a href="http://www.linkedin.com/in/jahnviipatell" >
+          <img src={LinkedIn} alt="linkedIn" className="icon" />
+        </a>
+        <a href="https://github.com/jahnviipatell">
+          <img src={GitHub} alt="gitHub" className="icon" />
+        </a>
       </div>
-      <a href="http://www.linkedin.com/in/jahnviipatell" >
-        <img src={LinkedIn} alt="linkedIn" className="icon" />
-      </a>
-      <a href="https://github.com/jahnviipatell">
-        <img src={GitHub} alt="gitHub" className="icon" />
-      </a>
     </div>
   )
 }

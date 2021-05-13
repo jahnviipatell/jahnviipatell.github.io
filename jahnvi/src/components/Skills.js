@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../Navbar'
-import Footer from '../Footer'
+// import Navbar from '../Navbar'
+// import Footer from '../Footer'
 import Nodejs from '../assets/nodejs-icon-logo-black-and-white.png'
 import JavaScript from '../assets/JavaScript.png'
 import Reactjs from '../assets/PikPng.com_google-play-store-logo_2690057.png'
@@ -19,7 +19,7 @@ const Skills = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="blank-background-overlay">
         <div className="main-layout">
           <div className="about-me-container">
@@ -133,7 +133,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

@@ -5,7 +5,9 @@
 //! Navbar
 nav {
   top: 0;
-  align-self: flex-start;
+  // align-self: flex-start;
+  // position: absolute;
+  position: fixed;
   z-index: 2;
   background-color: white;
   width: 100vw;
@@ -20,19 +22,28 @@ a.nav-link {
 }
 //! Homepage
 #root {
-  height: 100vh;
+  background-color: #FC7F00;
+  // background: url(../assets/val-toch-BHeQQmZM8jE-unsplash.jpg);
+  // background-size: cover;
+  // height: 100vh;
+  // background-repeat: repeat-y;
+}
+#HOME {
+  height: 92vh;
   width: 100vw;
-  display: flex;
+  display: block;
+  display:flex;
   align-items: center;
   background: url(../assets/val-toch-BHeQQmZM8jE-unsplash.jpg);
   background-size: cover;
+  // background-repeat: repeat-y;
 }
-#root::before {
+#HOME::before {
   content: 'JAHNVI PATEL';
   align-content: center;
   left: 0vw;
-  // top: 40vh;
-  position: absolute;
+  top: 40vh;
+  // position: absolute;
   background-color: rgb(255, 255, 255);
   padding-left: 6vw;
   font-family: 'Roboto Mono', monospace;
@@ -46,6 +57,7 @@ a.nav-link {
 }
 .title {
   position: absolute;
+  top: 40vh;
   text-align: right;
   margin-left: 45vw;
   font-family: 'Roboto Mono', monospace;
@@ -55,6 +67,9 @@ a.nav-link {
   width: 55vw;
 }
 //! Footer
+.footer {
+  display: inline-block;
+}
 .icons {
   width: 100vw;
   background: transparentize($color: #000000, $amount: 0.9);
@@ -93,13 +108,15 @@ button {
 }
 .blank-background-overlay {
   position: absolute;
+  margin-top:100vh;
   height: 100vh;
   width: 100vw;
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
   background: url(../assets/val-toch-BHeQQmZM8jE-unsplash.jpg);
   background-size: cover;
   z-index: 1;
+  display: block;
 }
 //! Skills
 .main-layout {
