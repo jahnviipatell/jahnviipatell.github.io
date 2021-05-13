@@ -23,9 +23,12 @@ const Skills = () => {
       <div className="blank-background-overlay">
         <div className="main-layout">
           <div className="about-me-container">
+            <div className="about-me-lines"></div>
             <h3>About me</h3>
+            <br />
             <p>Engineer | Traveller | Web Developer</p>
-            <p>
+            <div className="line"></div>
+            <p className="main-paragraph">
               <br />
               Hi, my name is Jahnvi! I am a junior full-stack web developer & a keen traveller.
               <br />
@@ -40,66 +43,80 @@ const Skills = () => {
           </div>
           <div className="right-half">
             <div className="skills-container">
-              <h3 className="skill-title">Skills</h3>
+              {/* <h5 className="skill-title">Skills</h5> */}
+              <br />
               <ul className="skills">
                 <li className="skill">
                   <img className="skill-icon" src={Nodejs} alt="nodejs" />
-                  <p>Node.js</p>
+                  <p className="label">Node.js</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon" src={JavaScript} alt="javaScript" />
-                  <p>JavaScript</p>
+                  <p className="label">JavaScript</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon" src={Reactjs} alt="reactjs" />
-                  <p>React.js</p>
+                  <p className="label">React.js</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon" src={HTML} alt="HTML" />
-                  <p>HTML</p>
+                  <p className="label">HTML</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon" src={Python} alt="python" />
-                  <p>Python</p>
+                  <p className="label">Python</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon django" src={Django} alt="django" />
-                  <p>Django</p>
+                  <p className="label">Django</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon css" src={CSS} alt="css" />
-                  <p>CSS</p>
+                  <p className="label">CSS</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon" src={MongoDB} alt="MongoDB" />
-                  <p>MongoDB</p>
+                  <p className="label">MongoDB</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon" src={PostgreSQL} alt="PostgreSQL" />
-                  <p>PostreSQL</p>
+                  <p className="label">PostreSQL</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon" src={Git} alt="Git" />
-                  <p>Git</p>
+                  <p className="label">Git</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon" src={Heroku} alt="Heroku" />
-                  <p>Heroku</p>
+                  <p className="label">Heroku</p>
                 </li>
                 <li className="skill">
                   <img className="skill-icon" src={Bootstrap} alt="Bootstrap" />
-                  <p>React Bootstrap</p>
+                  <p className="label">React Bootstrap</p>
                 </li>
               </ul>
             </div>
             <div className="education-container">
-              <h3>Education</h3>
+              <h3 className="right-text">Education & Experience</h3>
+              <div className="ed-lines"></div>
               <ul className="education-ul">
                 <li className="education-li">
-                  <p>General Assembly</p>
+                  <p>GENERAL ASSEMBLY, London (February-May/2021)
+                    <br />
+                    Software Engineering Immersive
+                  </p>
                 </li>
                 <li className="education-li">
-                  <p>Brunel University London</p>
+                  <p>Graduate Engineer HEATHROW AIRPORT LTD., London
+                    <br />
+                    (September/2019–January/2021)
+                  </p>
+                </li>
+                <li className="education-li">
+                  <p>BRUNEL UNIVERSITY, London (September/2014–September/2020)
+                    <br />
+                    Aerospace Engineering (BEng)
+                  </p>
                 </li>
               </ul>
             </div>

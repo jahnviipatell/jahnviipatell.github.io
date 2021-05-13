@@ -1,5 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
-
+*{
+  box-sizing:border-box;
+}
 //! Navbar
 nav {
   top: 0;
@@ -110,16 +112,39 @@ button {
 }
 .about-me-container {
   width: 35vw;
-  height: 50vh;
-  // border: solid black 5px;
+  height: 71vh;
   font-size: 1.95vh;
+  // background-color: white;
+  // color: orange;
+  // background: transparentize($color: white, $amount: 0.3);
+}
+.main-paragraph {
+  border-right: solid white 1vh;
+  border-bottom: solid white 1vh;
+}
+.about-me-lines {
+  border: solid white 2vh;
+  height: 8vh;
+  position: absolute;
+  width: 30vw;
+  margin-left: -19vw;
+  margin-top: -2vh;
+}
+.line {
+  border-top: solid white 1vh;
+  margin-top: -2vh;
+  width: 22vw;
 }
 .skills-container {
   width: 55vw;
   display: flex;
   flex-direction: column;
   text-align: center;
-  border: solid black 5px;
+  border-left: solid white 1vh;
+  border-top: solid white 1vh;
+
+  // border: solid black 5px;
+  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .skills {
   list-style: none;
@@ -129,12 +154,12 @@ button {
   padding-left: 0;
 }
 .skill-icon {
-  max-height: 8vh;
-  max-width: 4vw;
+  max-height: 10vh;
+  max-width: 5vw;
+  // box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
 }
-h6 {
-  margin-bottom: 0;
-  padding-top: 1vh;
+.right-text {
+  text-align: right;
 }
 .skill-title {
   text-align: left;
@@ -148,6 +173,9 @@ h6 {
   width: 9vw;
   // margin-top: 3vh;
 }
+.label {
+  font-size: smaller;
+}
 .django {
   padding-bottom: 2vh;
 }
@@ -155,7 +183,7 @@ h6 {
 .education-container {
   width: 55vw;
   height: 43vh;
-  border: solid black 5px;
+  // border: solid black 5px;
   text-align: left;
   margin: 0 auto;
 }
@@ -167,9 +195,22 @@ h6 {
 .education-ul {
   display: flex;
   justify-content: space-between;
+  margin-top: 3vh;
+  border-bottom: solid white 1vh;
+  border-right: solid white 1vh;
 }
 .education-li {
   width: 45%;
+}
+.ed-lines {
+  border: solid white 2vh;
+  width: 40vw;
+  height: 8vh;
+  margin-left: 28vw;
+  margin-top: -7.1vh;
+}
+li {
+  list-style: none;
 }
 
 @keyframes hide  { to { visibility: hidden; } }
