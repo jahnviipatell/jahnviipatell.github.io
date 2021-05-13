@@ -2,17 +2,17 @@ import React from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import Nodejs from '../assets/nodejs-icon-logo-black-and-white.png'
-// import JavaScript from '../assets/JavaScript.png'
+import JavaScript from '../assets/JavaScript.png'
 import Reactjs from '../assets/PikPng.com_google-play-store-logo_2690057.png'
 import Python from '../assets/Python.png'
 import Django from '../assets/Django.png'
 import HTML from '../assets/HTML.png'
 import CSS from '../assets/CSS.png'
-// import MongoDB from '../assets/MongoDb.png'
-// import PostreSQL from '../assets/PostreSQL.png'
+import MongoDB from '../assets/MongoDB.png'
+import PostgreSQL from '../assets/PostreSQL.png'
 import Git from '../assets/Git.png'
-// import Heroku from '../assets/Heroku.png'
-// import Bootstrap from '../assets/Bootstrap.png'
+import Heroku from '../assets/Heroku.png'
+import Bootstrap from '../assets/Bootstrap.png'
 
 const Skills = () => {
 
@@ -39,7 +39,7 @@ const Skills = () => {
                 <p>Node.js</p>
               </li>
               <li className="skill">
-                {/* <img className="skill-icon" src={JavaScript} alt="javaScript" /> */}
+                <img className="skill-icon" src={JavaScript} alt="javaScript" />
                 <p>JavaScript</p>
               </li>
               <li className="skill">
@@ -63,11 +63,11 @@ const Skills = () => {
                 <p>CSS</p>
               </li>
               <li className="skill">
-                {/* <img className="skill-icon" src={MongoDB} alt="MongoDB" /> */}
+                <img className="skill-icon" src={MongoDB} alt="MongoDB" />
                 <p>MongoDB</p>
               </li>
               <li className="skill">
-                {/* <img className="skill-icon" src={PostgreSQL} alt="PostgreSQL" /> */}
+                <img className="skill-icon" src={PostgreSQL} alt="PostgreSQL" />
                 <p>PostreSQL</p>
               </li>
               <li className="skill">
@@ -75,11 +75,11 @@ const Skills = () => {
                 <p>Git</p>
               </li>
               <li className="skill">
-                {/* <img className="skill-icon" src={Heroku} alt="Heroku" /> */}
+                <img className="skill-icon" src={Heroku} alt="Heroku" />
                 <p>Heroku</p>
               </li>
               <li className="skill">
-                {/* <img className="skill-icon" src={Bootstrap} alt="Bootstrap" /> */}
+                <img className="skill-icon" src={Bootstrap} alt="Bootstrap" />
                 <p>React Bootstrap</p>
               </li>
             </ul>
