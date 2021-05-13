@@ -29,7 +29,6 @@ const Skills = () => {
               <br />
               Hi, my name is Jahnvi! I am a junior full-stack web developer & a keen traveller.
               <br />
-              <br />
               I&apos;d been considering a career change into software for a while and had been talking with friends about it. One of my friends mentioned a coding boot-camp at General Assembly. I talked to him about it and got very excited. The fact pace, supportive teaching style and challenging curriculum were all right up my alley, and I knew it would be the best way to make a fast transition between careers.
               <br />
               <br />
@@ -39,61 +38,64 @@ const Skills = () => {
               Becoming a web developer is everything I love about engineering: being challenged, solving complex problems and working closely with smart and passionate people. I especially enjoy the culture born of open source collaboration and the fun of learning new things every day.
             </p>
           </div>
-          <div className="skills-container">
-            <h3 className="skill-title">Skills</h3>
-            <ul className="skills">
-              <li className="skill">
-                <img className="skill-icon" src={Nodejs} alt="nodejs" />
-                <p>Node.js</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon" src={JavaScript} alt="javaScript" />
-                <p>JavaScript</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon" src={Reactjs} alt="reactjs" />
-                <p>React.js</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon" src={HTML} alt="HTML" />
-                <p>HTML</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon" src={Python} alt="python" />
-                <p>Python</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon django" src={Django} alt="django" />
-                <p>Django</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon css" src={CSS} alt="css" />
-                <p>CSS</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon" src={MongoDB} alt="MongoDB" />
-                <p>MongoDB</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon" src={PostgreSQL} alt="PostgreSQL" />
-                <p>PostreSQL</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon" src={Git} alt="Git" />
-                <p>Git</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon" src={Heroku} alt="Heroku" />
-                <p>Heroku</p>
-              </li>
-              <li className="skill">
-                <img className="skill-icon" src={Bootstrap} alt="Bootstrap" />
-                <p>React Bootstrap</p>
-              </li>
-            </ul>
-          </div>
-          <div className="education-container">
-            <h3 className="skill-title">Education</h3>
+          <div className="right-half">
+            <div className="skills-container">
+              <h3 className="skill-title">Skills</h3>
+              <ul className="skills">
+                <li className="skill">
+                  <img className="skill-icon" src={Nodejs} alt="nodejs" />
+                  <p>Node.js</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon" src={JavaScript} alt="javaScript" />
+                  <p>JavaScript</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon" src={Reactjs} alt="reactjs" />
+                  <p>React.js</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon" src={HTML} alt="HTML" />
+                  <p>HTML</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon" src={Python} alt="python" />
+                  <p>Python</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon django" src={Django} alt="django" />
+                  <p>Django</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon css" src={CSS} alt="css" />
+                  <p>CSS</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon" src={MongoDB} alt="MongoDB" />
+                  <p>MongoDB</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon" src={PostgreSQL} alt="PostgreSQL" />
+                  <p>PostreSQL</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon" src={Git} alt="Git" />
+                  <p>Git</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon" src={Heroku} alt="Heroku" />
+                  <p>Heroku</p>
+                </li>
+                <li className="skill">
+                  <img className="skill-icon" src={Bootstrap} alt="Bootstrap" />
+                  <p>React Bootstrap</p>
+                </li>
+              </ul>
+            </div>
+            <div className="education-container">
+              <h3>Education</h3>
+              <p>General Assembly</p>
+            </div>
           </div>
         </div>
       </div>

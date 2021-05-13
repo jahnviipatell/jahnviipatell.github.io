@@ -102,34 +102,35 @@ button {
 //! Skills
 .main-layout {
   display: flex;
-  width: 90vw;
+  width: 95vw;
+  height: 70vh;
   margin: 0 auto;
   justify-content: space-evenly;
   font-family: 'Roboto Mono', monospace;
 }
 .about-me-container {
-  width: 40vw;
+  width: 35vw;
   height: 50vh;
   // border: solid black 5px;
   font-size: 1.95vh;
 }
 .skills-container {
-  width: 48vw;
+  width: 55vw;
   display: flex;
   flex-direction: column;
   text-align: center;
-  // border: solid black 5px;
+  border: solid black 5px;
 }
 .skills {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  // margin-top: 5vh;
+  padding-left: 0;
 }
 .skill-icon {
-  max-height: 10vh;
-  max-width: 5vw;
+  max-height: 8vh;
+  max-width: 4vw;
 }
 h6 {
   margin-bottom: 0;
@@ -137,18 +138,30 @@ h6 {
 }
 .skill-title {
   text-align: left;
-  margin-left: 6vw;
+  // margin-left: 5.25vw;
 }
 .skill {
   display: flex;
   flex-direction: column;
   align-items: center;
   // border: solid black 5px;
-  width: 11vw;
-  margin-top: 3vh;
+  width: 9vw;
+  // margin-top: 3vh;
 }
 .django {
   padding-bottom: 2vh;
+}
+.education-container {
+  width: 55vw;
+  height: 43vh;
+  border: solid black 5px;
+  text-align: left;
+  margin: 0 auto;
+}
+.right-half {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
 }
 
 @keyframes hide  { to { visibility: hidden; } }
