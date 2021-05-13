@@ -66,6 +66,29 @@ a.nav-link {
   height: 5vh;
   padding: 0 1vw;
 }
+button {
+  background-color: transparent;
+  border: none;
+  width: fit-content;
+}
+.mail-group {
+  display: flex;
+  flex-direction: column;
+}
+.copied {
+  position: absolute;
+  font-style: italic;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5vh;
+  margin-top: -2vh;
+  margin-left: -2vw;
+  color: white;
+}
+.copied { 
+  animation: hide 0s 4s forwards; 
+}
+
+@keyframes hide  { to { visibility: hidden; } }
 
 @media only screen and (max-width: 626px) {
   .title {

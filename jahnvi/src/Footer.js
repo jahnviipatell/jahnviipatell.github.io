@@ -10,7 +10,7 @@ const Footer = () => {
   const copyToClipBoard = async copyMe => {
     try {
       await navigator.clipboard.writeText(copyMe)
-      setCopySuccess('Copied!')
+      setCopySuccess('Copied to Clipboard!')
     } catch (err) {
       setCopySuccess('Failed to copy!')
     }
@@ -18,14 +18,20 @@ const Footer = () => {
 
   return (
     <div className="icons">
-      <button onClick={() => copyToClipBoard('jahnvi18patel@email.com')}>
-        <img src={Mail} alt="mail" className="icon" />
-      </button>
-      <div>
-        {copySuccess}
+      <div className="mail-group">
+        <div className="copied">
+          {copySuccess}
+        </div>
+        <button onClick={() => copyToClipBoard('jahnvi18patel@email.com')}>
+          <img src={Mail} alt="mail" className="icon" />
+        </button>
       </div>
-      <img src={LinkedIn} alt="linkedIn" className="icon" />
-      <img src={GitHub} alt="gitHub" className="icon" />
+      <a href="http://www.linkedin.com/in/jahnviipatell" >
+        <img src={LinkedIn} alt="linkedIn" className="icon" />
+      </a>
+      <a href="https://github.com/jahnviipatell">
+        <img src={GitHub} alt="gitHub" className="icon" />
+      </a>
     </div>
   )
 }
