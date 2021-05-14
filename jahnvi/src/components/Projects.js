@@ -24,7 +24,7 @@ const Projects = () => {
                     Visit Site
                     <img src={ExternalLink} alt="external-link" className="external-link" />
                   </a>
-                  <a className="a-link" href="https://traitts.herokuapp.com/">
+                  <a className="a-link" href="https://github.com/jahnviipatell/SEI-Project-Four">
                     GitHub
                     <img src={GitHub} alt="external-link" className="external-link" />
                   </a>
@@ -32,24 +32,42 @@ const Projects = () => {
               </li>
               <li>
                 <img src={SpaceInvadersScreenshot} alt="traits" className="project-screenshot" />
-                <a className="a-link" href="https://jahnviipatell.github.io/SEI-Project-One/">
-                  Visit Site
-                  <img src={ExternalLink} alt="external-link" className="external-link" />
-                </a>
+                <div className="links-container">
+                  <a className="a-link" href="https://jahnviipatell.github.io/SEI-Project-One/">
+                    Visit Site
+                    <img src={ExternalLink} alt="external-link" className="external-link" />
+                  </a>
+                  <a className="a-link" href="https://github.com/jahnviipatell/SEI-Project-One">
+                    GitHub
+                    <img src={GitHub} alt="external-link" className="external-link" />
+                  </a>
+                </div>
               </li>
               <li>
                 <img src={IcelanderScreenshot} alt="traits" className="project-screenshot" />
-                <a className="a-link" href="https://icelander.netlify.app/">
-                  Visit Site
-                  <img src={ExternalLink} alt="external-link" className="external-link" />
-                </a>
+                <div className="links-container">
+                  <a className="a-link" href="https://icelander.netlify.app/">
+                    Visit Site
+                    <img src={ExternalLink} alt="external-link" className="external-link" />
+                  </a>
+                  <a className="a-link" href="https://github.com/jahnviipatell/SEI-Project-Three">
+                    GitHub
+                    <img src={GitHub} alt="external-link" className="external-link" />
+                  </a>
+                </div>
               </li>
               <li>
                 <img src={QuoteGardenScreenshot} alt="traits" className="project-screenshot" />
-                <a className="a-link" href="https://quotes-garden.netlify.app/">
-                  Visit Site
-                  <img src={ExternalLink} alt="external-link" className="external-link" />
-                </a>
+                <div className="links-container">
+                  <a className="a-link" href="https://quotes-garden.netlify.app/">
+                    Visit Site
+                    <img src={ExternalLink} alt="external-link" className="external-link" />
+                  </a>
+                  <a className="a-link" href="https://github.com/jahnviipatell/SEI-Project-Two">
+                    GitHub
+                    <img src={GitHub} alt="external-link" className="external-link" />
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
