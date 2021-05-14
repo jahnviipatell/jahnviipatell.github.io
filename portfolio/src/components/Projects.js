@@ -12,7 +12,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="new-page-two">
+      <div id="projects" className="new-page-two">
         <h3 className="projects-header">Projects.</h3>
         <div className="projects-container">
           <div className="right-half">

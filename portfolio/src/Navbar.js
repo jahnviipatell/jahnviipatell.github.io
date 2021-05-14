@@ -12,9 +12,9 @@ const MyNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
         <Nav className="mr-sm-2">
-          <Nav.Link href="/skills">SKILLS.</Nav.Link>
-          <Nav.Link href="/projects">PROJECTS.</Nav.Link>
-          <Nav.Link href="/contact">CONTACT.</Nav.Link>
+          <a className="nav-link" href="#skills" >SKILLS.</a>
+          <a className="nav-link" href="#projects">PROJECTS.</a>
+          {/* <Nav.Link href="/contact">CONTACT.</Nav.Link> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
