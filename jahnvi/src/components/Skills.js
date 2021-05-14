@@ -19,28 +19,28 @@ const Skills = () => {
     <>
       <div className="blank-background-overlay">
         <div className="main-layout">
-          <div className="about-me-container">
-            <div className="about-me-lines"></div>
-            <h3>About me</h3>
-            <br />
-            <p>Engineer | Traveller | Web Developer</p>
-            <div className="line"></div>
-            <p className="main-paragraph">
-              <br />
-              Hi, my name is Jahnvi! I am a junior full-stack web developer & a keen traveller.
-              <br />
-              I&apos;d been considering a career change into software for a while and had been talking with friends about it. One of my friends mentioned a coding boot-camp at General Assembly. I talked to him about it and got very excited. The fact pace, supportive teaching style and challenging curriculum were all right up my alley, and I knew it would be the best way to make a fast transition between careers.
-              <br />
-              <br />
-              I felt stagnant in my career as a graduate mechanical engineer. Project after project, I was carrying out the same tasks and had stopped learning new things.
-              <br />
-              <br />
-              Becoming a web developer is everything I love about engineering: being challenged, solving complex problems and working closely with smart and passionate people. I especially enjoy the culture born of open source collaboration and the fun of learning new things every day.
-            </p>
+          <div className="about-me-header-para">
+            <h3 className="about-me-header">About me.</h3>
+            <div className="about-me-container">
+              {/* <div className="about-me-lines"></div> */}
+              <p className="three-header">Engineer | Traveller | Web Developer</p>
+              <div className="line"></div>
+              <p className="main-paragraph">
+                Hi, my name is Jahnvi! I am a junior full-stack web developer & a keen traveller.
+                <br />
+                I&apos;d been considering a career change into software for a while and had been talking with friends about it. One of my friends mentioned a coding boot-camp at General Assembly. I talked to him about it and got very excited. The fact pace, supportive teaching style and challenging curriculum were all right up my alley, and I knew it would be the best way to make a fast transition between careers.
+                <br />
+                <br />
+                I felt stagnant in my career as a graduate mechanical engineer. Project after project, I was carrying out the same tasks and had stopped learning new things.
+                <br />
+                <br />
+                Becoming a web developer is everything I love about engineering: being challenged, solving complex problems and working closely with smart and passionate people. I especially enjoy the culture born of open source collaboration and the fun of learning new things every day.
+              </p>
+            </div>
           </div>
           <div className="right-half">
             <div className="skills-container">
-              {/* <h5 className="skill-title">Skills</h5> */}
+              <h3>Skills</h3>
               <br />
               <ul className="skills">
                 <li className="skill">

@@ -169,58 +169,83 @@ button {
   // z-index: 1;
   // display: inline-block;
 }
-//! Skills
+//! Page two
 .new-page {
   display: block;
-  margin-top: 0;
-  background-color: transparentize($color: #000000, $amount: 0.05);
+  margin-top: 15vh;
+  width: 100vw;
+  height: 5000vh;
+  background-color: transparentize($color: #000000, $amount: 0.04);
 }
 .main-layout {
   // display: flex;
   // flex-direction: column;
-  width: 95vw;
+  width: 90vw;
   height: 100vh;
   margin: 0 auto;
   justify-content: space-evenly;
   font-family: 'Roboto Mono', monospace;
 }
+//! About Me
+.about-me-header {
+  background-color: white;
+  width: 25vw;
+  height: 10vh;
+  text-align: left;
+  padding-top: 4vh;
+  padding-left: 1vw;
+  margin-top: 8vh;
+  margin-right: -5vw;
+}
+.about-me-header-para {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.three-header {
+  padding: 1.5vw;
+  margin: 0;
+}
 .about-me-container {
-  width: 50vw;
-  height: 70vh;
-  font-size: 1.95vh;
-  // background-color: white;
-  // color: orange;
-  // background: transparentize($color: white, $amount: 0.3);
+  width: 80vw;
+  height: 50vh;
+  font-size: 2vh;
+  margin-top: 8vh;
+  background-color: white;
 }
 .main-paragraph {
   border-right: solid white 1vh;
   border-bottom: solid white 1vh;
+  padding: 1.5vw;
 }
 .about-me-lines {
   border: solid white 2vh;
-  height: 8vh;
-  position: absolute;
+  height: 10vh;
   width: 30vw;
-  margin-left: -19vw;
-  margin-top: -2vh;
+  margin-left: -15vw;
+  margin-top: -8vh;
 }
 .line {
   border-top: solid white 1vh;
   margin-top: -2vh;
-  width: 22vw;
+  width: 27vw;
 }
+//! Skills
 .skills-container {
-  width: 55vw;
+  margin-top: 10vh;
+  // margin-right: 10vw;
+  width: 45vw;
+  align-self: flex-end;
   display: flex;
   flex-direction: column;
   text-align: center;
   border-left: solid white 1vh;
-  border-top: solid white 1vh;
-
-  // border: solid black 5px;
-  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-bottom: solid white 1vh;
+  color: white;
+  width: 90vw;
 }
 .skills {
+  // width: 80vw;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
