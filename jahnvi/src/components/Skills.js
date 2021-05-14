@@ -40,7 +40,7 @@ const Skills = () => {
           </div>
           <div className="right-half">
             <div className="skills-container">
-              <h3>Skills</h3>
+              <h3 className="skills-header">Skills.</h3>
               <br />
               <ul className="skills">
                 <li className="skill">
@@ -93,9 +93,8 @@ const Skills = () => {
                 </li>
               </ul>
             </div>
+            <h3 className="education-header">Projects.</h3>
             <div className="education-container">
-              <h3 className="right-text">Education & Experience</h3>
-              <div className="ed-lines"></div>
               <ul className="education-ul">
                 <li className="education-li">
                   <p><b>GENERAL ASSEMBLY, London</b>

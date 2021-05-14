@@ -232,25 +232,36 @@ button {
 }
 //! Skills
 .skills-container {
+  // margin: 0 auto;
   margin-top: 10vh;
+  margin-right: 1.5vw;
   // margin-right: 10vw;
-  width: 45vw;
-  align-self: flex-end;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border-left: solid white 1vh;
-  border-bottom: solid white 1vh;
-  color: white;
-  width: 90vw;
+  // width: 45vw;
+  // align-self: flex-end;
+  // display: flex;
+  // flex-direction: column;
+  // text-align: center;
+  // border-left: solid white 1vh;
+  // border-bottom: solid white 1vh;
+  // color: white;
+  width: 50vw;
+}
+.skills-header {
+  text-align: right;
+  background-color: white;
+  width: 25vw;
+  height: 10vh;
+  padding-top: 4vh;
+  padding-right: 1vw;
+  margin-left: -6vw;
 }
 .skills {
-  // width: 80vw;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   padding-left: 0;
+  margin-left: -3vw;
 }
 .skill-icon {
   max-height: 10vh;
@@ -269,22 +280,35 @@ button {
   flex-direction: column;
   align-items: center;
   // border: solid black 5px;
-  width: 9vw;
-  // margin-top: 3vh;
+  width: 12vw;
+  margin-top: 4vh;
 }
 .label {
-  font-size: smaller;
+  color:white;
+  font-size: 2.5vh;
+  height: 4vh;
+  padding-top: 2.5vh;
 }
 .django {
   padding-bottom: 2vh;
 }
 //! Education
-.education-container {
-  width: 55vw;
-  height: 34.4vh;
-  // border: solid black 5px;
+.education-header {
+  background-color: white;
+  width: 40vw;
+  height: 10vh;
   text-align: left;
-  margin: 0 auto;
+  padding-top: 4vh;
+  padding-left: 1vw;
+  // margin-top: 8vh;
+  margin-left: 55vw;
+}
+.education-container {
+  background-color: white;
+  width: 90vw;
+  height: 45vh;
+  text-align: left;
+  margin-top: 8vh;
 }
 .right-half {
   display: flex;
@@ -293,31 +317,26 @@ button {
 }
 .education-ul {
   display: flex;
-  // flex-direction: column;
-  // flex-wrap: wrap;
   justify-content: space-between;
-  // margin-top: 3vh;
-  border-bottom: solid white 1vh;
-  border-left: solid white 1vh;
-  height: 90%;
-  padding-top: 6vh;
+  align-items: center;
+  height: 40vh;
+  width: 90vw;
+  margin: 0 auto;
+  // margin-left: 0;
+  // padding-left: 0;
 }
 .education-li {
-  width: 33%;
-}
-.ed-lines {
-  border: solid white 2vh;
-  width: 40vw;
-  height: 8vh;
-  margin-left: 28vw;
-  margin-top: -7.1vh;
+  width: 25vw;
+  height: 100%;
+  // margin: 2vw;
+  // padding: 2vw;
+  color: white;
+  background-color: black;
 }
 li {
   list-style: none;
 }
-.right-text {
-  margin-top: 3vh;
-}
+
 
 @keyframes hide  { to { visibility: hidden; } }
 
