@@ -263,6 +263,7 @@ button {
 }
 //! Education
 .new-page-two {
+  margin-top: 2vh;
   display: block;
   width: 100vw;
   height: 120vh;
@@ -281,12 +282,12 @@ button {
   margin: 0 auto;
   // border: solid white 2px;
   width: 92vw;
-  height: 95vh;
+  height: 85vh;
   display: flex;
   color: white;
 }
 .project-screenshot {
-  height: 40vh;
+  height: 35vh;
   // filter: grayscale(50%);
 }
 .project-screenshot:hover {
@@ -315,12 +316,21 @@ li {
   flex-direction: column;
   color: white;
 }
+.links-container {
+  display: flex;
+  justify-content: space-evenly;
+}
 .a-link {
-  padding-top: 1vh;
+  margin-top: 1.5vh;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.a-link:hover {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
 }
 .external-link {
   height: 3vh;

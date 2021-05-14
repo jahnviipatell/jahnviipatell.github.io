@@ -4,6 +4,7 @@ import IcelanderScreenshot from '../assets/IcelanderScreenshot.png'
 import QuoteGardenScreenshot from '../assets/QuoteGardenScreenshot.png'
 import SpaceInvadersScreenshot from '../assets/SpaceInvadersScreenshot.png'
 import ExternalLink from '../assets/ExternalLink.png'
+import GitHub from '../assets/pngjoy.com_telegram-icon-github-icon-png-white-png-download_1164606.png'
 
 const Projects = () => {
 
@@ -18,10 +19,16 @@ const Projects = () => {
             <ul className="projects-ul">
               <li className="project-li">
                 <img src={TraitsScreenshot} alt="traits" className="project-screenshot" />
-                <a className="a-link" href="https://traitts.herokuapp.com/">
-                  Visit Site
-                  <img src={ExternalLink} alt="external-link" className="external-link" />
-                </a>
+                <div className="links-container">
+                  <a className="a-link" href="https://traitts.herokuapp.com/">
+                    Visit Site
+                    <img src={ExternalLink} alt="external-link" className="external-link" />
+                  </a>
+                  <a className="a-link" href="https://traitts.herokuapp.com/">
+                    GitHub
+                    <img src={GitHub} alt="external-link" className="external-link" />
+                  </a>
+                </div>
               </li>
               <li>
                 <img src={SpaceInvadersScreenshot} alt="traits" className="project-screenshot" />
