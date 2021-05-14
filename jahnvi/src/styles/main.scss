@@ -174,7 +174,6 @@ button {
   display: block;
   margin-top: 15vh;
   width: 100vw;
-  height: 5000vh;
   background-color: transparentize($color: #000000, $amount: 0.04);
 }
 .main-layout {
@@ -276,14 +275,14 @@ button {
   margin: 0 auto;
   border: solid white 2px;
   width: 92vw;
-  height: 75vh;
-  text-align: left;
+  height: 95vh;
+  // text-align: left;
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   color: white;
 }
 .project-screenshot {
-  height: 45vh;
+  height: 40vh;
   // filter: grayscale(50%);
 }
 .project-screenshot:hover {
@@ -292,10 +291,29 @@ button {
 .right-half {
   // margin: 0 auto;
   display: flex;
-  width: fit-content;
+  width: 100%;
   border: solid white 2px;
 }
-
+.projects-ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+.project-li {
+  color: white;
+}
+.new-page-two {
+  display: block;
+  width: 100vw;
+  background-color: transparentize($color: #000000, $amount: 0.04);
+}
 
 
 @keyframes hide  { to { visibility: hidden; } }

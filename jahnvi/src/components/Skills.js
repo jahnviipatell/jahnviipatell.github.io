@@ -100,15 +100,28 @@ const Skills = () => {
             </ul>
           </div>
         </div>
-        <h3 className="projects-header">Projects.</h3>
-        {/* Project 4 */}
-        <div className="projects-container">
-          {/* <img className="screen-recording" src={ProjectFour} alt="four" /> */}
-          <div className="right-half">
-            <img src={TraitsScreenshot} alt="traits" className="project-screenshot" />
-            <img src={IcelanderScreenshot} alt="traits" className="project-screenshot" />
-            <img src={QuoteGardenScreenshot} alt="traits" className="project-screenshot" />
-            <img src={SpaceInvadersScreenshot} alt="traits" className="project-screenshot" />
+        <div className="new-page-two">
+          <h3 className="projects-header">Projects.</h3>
+          {/* Project 4 */}
+          <div className="projects-container">
+            {/* <img className="screen-recording" src={ProjectFour} alt="four" /> */}
+            <div className="right-half">
+              <ul className="projects-ul">
+                <li className="project-li">
+                  <img src={TraitsScreenshot} alt="traits" className="project-screenshot" />
+                  <button>Visit Site</button>
+                </li>
+                <li>
+                  <img src={SpaceInvadersScreenshot} alt="traits" className="project-screenshot" />
+                </li>
+                <li>
+                  <img src={IcelanderScreenshot} alt="traits" className="project-screenshot" />
+                </li>
+                <li>
+                  <img src={QuoteGardenScreenshot} alt="traits" className="project-screenshot" />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
