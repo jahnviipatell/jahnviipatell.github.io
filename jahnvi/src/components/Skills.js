@@ -11,6 +11,9 @@ import PostgreSQL from '../assets/PostreSQL.png'
 import Git from '../assets/Git.png'
 import Heroku from '../assets/Heroku.png'
 import Bootstrap from '../assets/Bootstrap.png'
+// import ProjectFour from '../assets/ProjectFour.gif'
+// import Traits from '../assets/Traits.png'
+import TraitsScreenshot from '../assets/TraitsScreenshot.png'
 
 const Skills = () => {
 
@@ -20,8 +23,8 @@ const Skills = () => {
       <div className="blank-background-overlay">
         <div className="main-layout">
           <div className="about-me-header-para">
-            <h3 className="about-me-header">About me.</h3>
             <div className="about-me-container">
+              <h3 className="about-me-header">About me.</h3>
               {/* <div className="about-me-lines"></div> */}
               <p className="three-header">Engineer | Traveller | Web Developer</p>
               <div className="line"></div>
@@ -38,94 +41,68 @@ const Skills = () => {
               </p>
             </div>
           </div>
+          <div className="skills-container">
+            <h3 className="skills-header">Skills.</h3>
+            <br />
+            <ul className="skills">
+              <li className="skill">
+                <img className="skill-icon" src={Nodejs} alt="nodejs" />
+                <p className="label">Node.js</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon" src={JavaScript} alt="javaScript" />
+                <p className="label">JavaScript</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon" src={Reactjs} alt="reactjs" />
+                <p className="label">React.js</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon" src={HTML} alt="HTML" />
+                <p className="label">HTML</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon" src={Python} alt="python" />
+                <p className="label">Python</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon django" src={Django} alt="django" />
+                <p className="label">Django</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon css" src={CSS} alt="css" />
+                <p className="label">CSS</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon" src={MongoDB} alt="MongoDB" />
+                <p className="label">MongoDB</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon" src={PostgreSQL} alt="PostgreSQL" />
+                <p className="label">PostreSQL</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon" src={Git} alt="Git" />
+                <p className="label">Git</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon" src={Heroku} alt="Heroku" />
+                <p className="label">Heroku</p>
+              </li>
+              <li className="skill">
+                <img className="skill-icon" src={Bootstrap} alt="Bootstrap" />
+                <p className="label">React Bootstrap</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h3 className="projects-header">Projects.</h3>
+        {/* Project 4 */}
+        <div className="projects-container">
+          {/* <img className="screen-recording" src={ProjectFour} alt="four" /> */}
+          <h3>Test</h3>
           <div className="right-half">
-            <div className="skills-container">
-              <h3 className="skills-header">Skills.</h3>
-              <br />
-              <ul className="skills">
-                <li className="skill">
-                  <img className="skill-icon" src={Nodejs} alt="nodejs" />
-                  <p className="label">Node.js</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon" src={JavaScript} alt="javaScript" />
-                  <p className="label">JavaScript</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon" src={Reactjs} alt="reactjs" />
-                  <p className="label">React.js</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon" src={HTML} alt="HTML" />
-                  <p className="label">HTML</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon" src={Python} alt="python" />
-                  <p className="label">Python</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon django" src={Django} alt="django" />
-                  <p className="label">Django</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon css" src={CSS} alt="css" />
-                  <p className="label">CSS</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon" src={MongoDB} alt="MongoDB" />
-                  <p className="label">MongoDB</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon" src={PostgreSQL} alt="PostgreSQL" />
-                  <p className="label">PostreSQL</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon" src={Git} alt="Git" />
-                  <p className="label">Git</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon" src={Heroku} alt="Heroku" />
-                  <p className="label">Heroku</p>
-                </li>
-                <li className="skill">
-                  <img className="skill-icon" src={Bootstrap} alt="Bootstrap" />
-                  <p className="label">React Bootstrap</p>
-                </li>
-              </ul>
-            </div>
-            <h3 className="education-header">Projects.</h3>
-            <div className="education-container">
-              <ul className="education-ul">
-                <li className="education-li">
-                  <p><b>GENERAL ASSEMBLY, London</b>
-                    <br />
-                    <i>(February-May/2021)</i>
-                    <br />
-                    <br />
-                    <br />
-                    Software Engineering Immersive
-                  </p>
-                </li>
-                <li className="education-li">
-                  <p><b>HEATHROW AIRPORT LTD., London</b>
-                    <br />
-                    <i>(September/2019–January/2021)</i>
-                    <br />
-                    <br />
-                    Graduate Engineer
-                  </p>
-                </li>
-                <li className="education-li">
-                  <p className="brunel"><b>BRUNEL UNIVERSITY, London</b>
-                    <br />
-                    <i>(September/2014–September/2020)</i>
-                    <br />
-                    <br />
-                    Aerospace Engineering (BEng)
-                  </p>
-                </li>
-              </ul>
-            </div>
+            <img src={TraitsScreenshot} alt="traits" className="project-screenshot" />
           </div>
         </div>
       </div>
