@@ -1,6 +1,9 @@
 import React from 'react'
-import Navbar from '../Navbar'
-import Footer from '../Footer'
+import TraitsScreenshot from '../assets/TraitsScreenshot.png'
+import IcelanderScreenshot from '../assets/IcelanderScreenshot.png'
+import QuoteGardenScreenshot from '../assets/QuoteGardenScreenshot.png'
+import SpaceInvadersScreenshot from '../assets/SpaceInvadersScreenshot.png'
+import ExternalLink from '../assets/ExternalLink.png'
 
 const Projects = () => {
 
@@ -8,10 +11,43 @@ const Projects = () => {
 
   return (
     <>
-      <Navbar />
-      <div className="blank-background-overlay">
+      <div className="new-page-two">
+        <h3 className="projects-header">Projects.</h3>
+        <div className="projects-container">
+          <div className="right-half">
+            <ul className="projects-ul">
+              <li className="project-li">
+                <img src={TraitsScreenshot} alt="traits" className="project-screenshot" />
+                <a className="a-link" href="https://traitts.herokuapp.com/">
+                  Visit Site
+                  <img src={ExternalLink} alt="external-link" className="external-link" />
+                </a>
+              </li>
+              <li>
+                <img src={SpaceInvadersScreenshot} alt="traits" className="project-screenshot" />
+                <a className="a-link" href="https://jahnviipatell.github.io/SEI-Project-One/">
+                  Visit Site
+                  <img src={ExternalLink} alt="external-link" className="external-link" />
+                </a>
+              </li>
+              <li>
+                <img src={IcelanderScreenshot} alt="traits" className="project-screenshot" />
+                <a className="a-link" href="https://icelander.netlify.app/">
+                  Visit Site
+                  <img src={ExternalLink} alt="external-link" className="external-link" />
+                </a>
+              </li>
+              <li>
+                <img src={QuoteGardenScreenshot} alt="traits" className="project-screenshot" />
+                <a className="a-link" href="https://quotes-garden.netlify.app/">
+                  Visit Site
+                  <img src={ExternalLink} alt="external-link" className="external-link" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <Footer />
     </>
   )
 }

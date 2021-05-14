@@ -13,10 +13,8 @@ import Heroku from '../assets/Heroku.png'
 import Bootstrap from '../assets/Bootstrap.png'
 // import ProjectFour from '../assets/ProjectFour.gif'
 // import Traits from '../assets/Traits.png'
-import TraitsScreenshot from '../assets/TraitsScreenshot.png'
-import IcelanderScreenshot from '../assets/IcelanderScreenshot.png'
-import QuoteGardenScreenshot from '../assets/QuoteGardenScreenshot.png'
-import SpaceInvadersScreenshot from '../assets/SpaceInvadersScreenshot.png'
+import Projects from './Projects'
+
 
 
 const Skills = () => {
@@ -100,30 +98,7 @@ const Skills = () => {
             </ul>
           </div>
         </div>
-        <div className="new-page-two">
-          <h3 className="projects-header">Projects.</h3>
-          {/* Project 4 */}
-          <div className="projects-container">
-            {/* <img className="screen-recording" src={ProjectFour} alt="four" /> */}
-            <div className="right-half">
-              <ul className="projects-ul">
-                <li className="project-li">
-                  <img src={TraitsScreenshot} alt="traits" className="project-screenshot" />
-                  <button>Visit Site</button>
-                </li>
-                <li>
-                  <img src={SpaceInvadersScreenshot} alt="traits" className="project-screenshot" />
-                </li>
-                <li>
-                  <img src={IcelanderScreenshot} alt="traits" className="project-screenshot" />
-                </li>
-                <li>
-                  <img src={QuoteGardenScreenshot} alt="traits" className="project-screenshot" />
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <Projects />
       </div>
     </>
   )

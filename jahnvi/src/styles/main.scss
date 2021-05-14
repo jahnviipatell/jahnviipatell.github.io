@@ -262,6 +262,12 @@ button {
   padding-bottom: 2vh;
 }
 //! Education
+.new-page-two {
+  display: block;
+  width: 100vw;
+  height: 120vh;
+  background-color: transparentize($color: #000000, $amount: 0.04);
+}
 .projects-header {
   color: white;
   width: 100vw;
@@ -273,12 +279,10 @@ button {
 }
 .projects-container {
   margin: 0 auto;
-  border: solid white 2px;
+  // border: solid white 2px;
   width: 92vw;
   height: 95vh;
-  // text-align: left;
   display: flex;
-  // justify-content: space-between;
   color: white;
 }
 .project-screenshot {
@@ -292,7 +296,7 @@ button {
   // margin: 0 auto;
   display: flex;
   width: 100%;
-  border: solid white 2px;
+  // border: solid white 2px;
 }
 .projects-ul {
   width: 100%;
@@ -307,12 +311,19 @@ li {
   list-style: none;
 }
 .project-li {
+  display: flex;
+  flex-direction: column;
   color: white;
 }
-.new-page-two {
-  display: block;
-  width: 100vw;
-  background-color: transparentize($color: #000000, $amount: 0.04);
+.a-link {
+  padding-top: 1vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.external-link {
+  height: 3vh;
 }
 
 
