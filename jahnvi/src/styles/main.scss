@@ -4,13 +4,10 @@
 }
 //! Navbar
 nav {
+  position: fixed !important;
   top: 0;
-  // align-self: flex-start;
-  // position: absolute;
-  position: fixed;
-  z-index: 2;
-  background-color: white;
   width: 100vw;
+  background-color: white;
 }
 .logo {
   height: 5vh;
@@ -22,20 +19,24 @@ a.nav-link {
 }
 //! Homepage
 #root {
-  background-color: #FC7F00;
-  // background: url(../assets/val-toch-BHeQQmZM8jE-unsplash.jpg);
-  // background-size: cover;
+  // background-color: #FC7F00;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background: url(../assets/val-toch-BHeQQmZM8jE-unsplash.jpg);
+  background-size: cover;
   // height: 100vh;
-  // background-repeat: repeat-y;
+  background-repeat: repeat-y;
+  // text-align: center;
 }
 #HOME {
-  height: 92vh;
+  height: 100vh;
   width: 100vw;
   display: block;
   display:flex;
   align-items: center;
-  background: url(../assets/val-toch-BHeQQmZM8jE-unsplash.jpg);
-  background-size: cover;
+  // background: url(../assets/val-toch-BHeQQmZM8jE-unsplash.jpg);
+  // background-size: inherit;
   // background-repeat: repeat-y;
 }
 #HOME::before {
@@ -56,23 +57,65 @@ a.nav-link {
   height: 25vh;
 }
 .title {
-  position: absolute;
+  // position: absolute;
   top: 40vh;
   text-align: right;
-  margin-left: 45vw;
+  // margin-left: 45vw;
   font-family: 'Roboto Mono', monospace;
   font-weight: 500;
   font-size: 6vh;
   letter-spacing: 3vw;
-  width: 55vw;
+  width: 57vw;
+}
+//! Arrow
+.arrow,
+.arrow:before {
+  position: absolute;
+  left: 50%;
+}
+.arrow {
+  width: 40px;
+  height: 40px;
+  top: 85%;
+  margin: -20px 0 0 -20px;
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #fff solid;
+  border-bottom: 2px #fff solid;
+}
+.arrow:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}
+@keyframes arrow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -10px);
+}
 }
 //! Footer
 .footer {
   display: inline-block;
+  bottom: 0;
+  position: fixed;
 }
 .icons {
   width: 100vw;
-  background: transparentize($color: #000000, $amount: 0.9);
+  background: transparentize($color: #000000, $amount: 0.05);
   height: 8vh;
   position: absolute;
   bottom: 0;
@@ -107,29 +150,34 @@ button {
   animation: hide 0s 4s forwards; 
 }
 .blank-background-overlay {
-  position: absolute;
-  margin-top:100vh;
+  // position: relative;
+  // margin-top:100vh;
   height: 100vh;
   width: 100vw;
   // display: flex;
   // align-items: center;
-  background: url(../assets/val-toch-BHeQQmZM8jE-unsplash.jpg);
-  background-size: cover;
-  z-index: 1;
-  display: block;
+  // background: url(../assets/val-toch-BHeQQmZM8jE-unsplash.jpg);
+  // background-size: cover;
+  // z-index: 1;
+  // display: inline-block;
 }
 //! Skills
+.new-page {
+  display: block;
+  margin-top: 0;
+}
 .main-layout {
-  display: flex;
+  // display: flex;
+  // flex-direction: column;
   width: 95vw;
-  height: 70vh;
+  height: 100vh;
   margin: 0 auto;
   justify-content: space-evenly;
   font-family: 'Roboto Mono', monospace;
 }
 .about-me-container {
-  width: 35vw;
-  height: 71vh;
+  width: 50vw;
+  height: 70vh;
   font-size: 1.95vh;
   // background-color: white;
   // color: orange;
@@ -241,9 +289,12 @@ li {
 
 @media only screen and (max-width: 626px) {
   .title {
-    font-size: 3vh;
+    font-size: 2.5vh;
   }
-  #root::before {
+  #HOME {
+    height: 100vh;
+  }
+  #HOME::before {
   font-size: 4vh;
   padding-left: 2vw;
   height: 12vh;
