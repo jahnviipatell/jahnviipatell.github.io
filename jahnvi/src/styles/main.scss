@@ -280,10 +280,11 @@ button {
   text-align: left;
   display: flex;
   justify-content: space-between;
+  color: white;
 }
 .project-screenshot {
-  height: 100%;
-  filter: grayscale(50%);
+  height: 45vh;
+  // filter: grayscale(50%);
 }
 .project-screenshot:hover {
   filter: grayscale(0%);

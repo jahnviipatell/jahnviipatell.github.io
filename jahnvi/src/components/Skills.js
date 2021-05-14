@@ -14,6 +14,10 @@ import Bootstrap from '../assets/Bootstrap.png'
 // import ProjectFour from '../assets/ProjectFour.gif'
 // import Traits from '../assets/Traits.png'
 import TraitsScreenshot from '../assets/TraitsScreenshot.png'
+import IcelanderScreenshot from '../assets/IcelanderScreenshot.png'
+import QuoteGardenScreenshot from '../assets/QuoteGardenScreenshot.png'
+import SpaceInvadersScreenshot from '../assets/SpaceInvadersScreenshot.png'
+
 
 const Skills = () => {
 
@@ -100,9 +104,11 @@ const Skills = () => {
         {/* Project 4 */}
         <div className="projects-container">
           {/* <img className="screen-recording" src={ProjectFour} alt="four" /> */}
-          <h3>Test</h3>
           <div className="right-half">
             <img src={TraitsScreenshot} alt="traits" className="project-screenshot" />
+            <img src={IcelanderScreenshot} alt="traits" className="project-screenshot" />
+            <img src={QuoteGardenScreenshot} alt="traits" className="project-screenshot" />
+            <img src={SpaceInvadersScreenshot} alt="traits" className="project-screenshot" />
           </div>
         </div>
       </div>
