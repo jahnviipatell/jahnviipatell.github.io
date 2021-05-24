@@ -14,7 +14,7 @@ const MyNavbar = () => {
         <Nav className="mr-sm-2">
           <a className="nav-link" href="#skills" >SKILLS.</a>
           <a className="nav-link" href="#projects">PROJECTS.</a>
-          {/* <Nav.Link href="/contact">CONTACT.</Nav.Link> */}
+          {/* <a className="nav-link" href="#projects">TRAVEL GALLERY.</a> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
