@@ -260,7 +260,7 @@ button {
   margin-top: 2vh;
   display: block;
   width: 100vw;
-  height: 150vh;
+  height: 180vh;
   background-color: transparentize($color: #000000, $amount: 0.04);
 }
 .projects-header {
@@ -276,7 +276,7 @@ button {
   margin: 0 auto;
   // border: solid white 2px;
   width: 92vw;
-  height: 85vh;
+  // height: 10vh;
   display: flex;
   color: white;
 }
@@ -295,7 +295,7 @@ button {
 }
 .projects-ul {
   width: 100%;
-  height: 150vh;
+  // height: 120vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -308,14 +308,16 @@ li {
 }
 .project-li {
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   color: white;
+  margin-bottom: 5vh;
   // width: 35vw;
   // height: fit-content;
 }
 .links-container {
   display: flex;
   justify-content: space-evenly;
+  border-top: solid white 2px;
 }
 .a-link {
   margin-top: 1.5vh;
@@ -333,13 +335,19 @@ li {
   height: 3vh;
 }
 .project-description {
-  // height: 4vh;
+  // height: 5vh;
   width: 30vw;
-  padding: 1vh 0;
+  padding: 2vh 0;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   font-family: 'Roboto Mono', monospace;
   font-size: smaller;
+}
+.description-and-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2vw;
 }
 
 @keyframes hide  { to { visibility: hidden; } }
