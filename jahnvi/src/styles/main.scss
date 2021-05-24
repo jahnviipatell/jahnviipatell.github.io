@@ -260,7 +260,7 @@ button {
   margin-top: 2vh;
   display: block;
   width: 100vw;
-  height: 110vh;
+  height: 150vh;
   background-color: transparentize($color: #000000, $amount: 0.04);
 }
 .projects-header {
@@ -295,6 +295,7 @@ button {
 }
 .projects-ul {
   width: 100%;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -309,6 +310,8 @@ li {
   display: flex;
   flex-direction: column;
   color: white;
+  // width: 35vw;
+  // height: fit-content;
 }
 .links-container {
   display: flex;
@@ -329,7 +332,15 @@ li {
 .external-link {
   height: 3vh;
 }
-
+.project-description {
+  // height: 4vh;
+  width: 30vw;
+  padding: 1vh 0;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: smaller;
+}
 
 @keyframes hide  { to { visibility: hidden; } }
 

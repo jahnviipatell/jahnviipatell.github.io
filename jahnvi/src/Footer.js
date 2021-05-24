@@ -28,7 +28,7 @@ const Footer = () => {
             {copySuccess}
           </div>
           <button onClick={() => copyToClipBoard('jahnvi18patel@gmail.com')}>
-            <a href="jahnvi18patel@gmail.com">
+            <a href="mailto:jahnvi18patel@gmail.com">
               <img src={Mail} alt="mail" className="icon" />
             </a>
           </button>

@@ -19,6 +19,9 @@ const Projects = () => {
             <ul className="projects-ul">
               <li className="project-li">
                 <img src={TraitsScreenshot} alt="traits" className="project-screenshot" />
+                <p className="project-description">
+                  A personality test that scores your answers against the ‘Big 5’ traits and returns a detailed set of results for each trait. Users are able to register/log in and save results to the database. This project used an external package Chart.js to display numerical results as an interactive doughnut chart. Full-stack app rooted in Python, Django and PostgreSQL back-end.
+                </p>
                 <div className="links-container">
                   <a className="a-link" href="https://traitts.herokuapp.com/">
                     Visit Site
