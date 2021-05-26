@@ -359,18 +359,11 @@ li {
   font-family: 'Roboto Mono', monospace;
   padding-bottom: 10vh;
 }
-.me-ul {
-  //!!! Delete height later
-  // height: 50vh;
-  padding-bottom: 10vh;
-  color: white;
-  display: flex;
+.template-div-gallery {
+  margin: 0 10px;
+  // height: 100vh;
 }
-.me-img {
-  // width: 30vw;
-  height: 40vh;
-  margin: 7px;
-}
+
 
 @keyframes hide  { to { visibility: hidden; } }
 

@@ -25,8 +25,8 @@ const Me = () => {
     <div id="me" className="new-page-three">
       <h3 className="projects-header">Me.</h3>
       <h6 className="projects-header">my life in pictures</h6>
-      <div>
-        <Gallery photos={photos} margin={50} onClick={openLightbox} />
+      <div className="template-div-gallery">
+        <Gallery photos={photos} margin={10} onClick={openLightbox} />
         <ModalGateway>
           {viewerIsOpen ? (
             <Modal onClose={closeLightbox}>
@@ -36,6 +36,7 @@ const Me = () => {
                   ...x,
                   srcset: x.srcSet,
                   caption: x.title,
+                  size: x.size,
                 }))}
               />
             </Modal>
