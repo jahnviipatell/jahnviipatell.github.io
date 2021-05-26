@@ -356,9 +356,19 @@ li {
   margin-top: 2vh;
   width: 100vw;
   background-color: transparentize($color: #000000, $amount: 0.04);
+  font-family: 'Roboto Mono', monospace;
 }
 .me-ul {
-  height: 50vh;
+  //!!! Delete height later
+  // height: 50vh;
+  padding-bottom: 10vh;
+  color: white;
+  display: flex;
+}
+.me-img {
+  // width: 30vw;
+  height: 40vh;
+  margin: 7px;
 }
 
 @keyframes hide  { to { visibility: hidden; } }
