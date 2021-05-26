@@ -1,7 +1,7 @@
 import React from 'react'
-// import Navbar from '../Navbar'
-// import Footer from '../Footer'
 import Skills from './Skills'
+import Projects from './Projects'
+import Me from './Me'
 
 const Homepage = () => {
 
@@ -22,6 +22,8 @@ const Homepage = () => {
       <div className="new-page">
         <Skills />
       </div>
+      <Projects />
+      <Me />
     </>
   )
 }

@@ -165,7 +165,7 @@ button {
 //! Page two
 .new-page {
   display: block;
-  margin-top: 15vh;
+  margin-top: 17vh;
   width: 100vw;
   background-color: transparentize($color: #000000, $amount: 0.04);
 }
@@ -349,6 +349,16 @@ li {
   flex-direction: column;
   justify-content: center;
   padding-left: 2vw;
+}
+//! Me.
+.new-page-three {
+  display: block;
+  margin-top: 2vh;
+  width: 100vw;
+  background-color: transparentize($color: #000000, $amount: 0.04);
+}
+.me-ul {
+  height: 50vh;
 }
 
 @keyframes hide  { to { visibility: hidden; } }
