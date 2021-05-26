@@ -39,7 +39,7 @@ const Projects = () => {
                 <img src={IcelanderScreenshot} alt="traits" className="project-screenshot" />
                 <div className="description-and-links">
                   <p className="project-description">
-                    An app that allows a user to browse our database of holidays by package and view the itinerary by day. Displaying corresponding locations on an interactive map of Iceland and allowing these to be saved to user profiles. Full-stack MERN application using our own RESTful API. Using React with Node.js, Express & MongoDB.
+                    An app that allows a user to browse our database of holidays by package and view the itinerary by day. Displaying corresponding locations on an interactive map of Iceland and allowing these to be saved to a user&apos;s profile. Full-stack MERN application using our own RESTful API. Using React with Node.js, Express & MongoDB.
                   </p>
                   <div className="links-container">
                     <a className="a-link" href="https://icelander.netlify.app/">
