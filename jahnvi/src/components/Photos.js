@@ -18,11 +18,17 @@ export const photos = [
     title: 'Slovenia 2020',
   },
   {
-    src: 'https://i.imgur.com/O4JykxV.jpg',
+    src: 'https://i.imgur.com/reF4Kvv.jpg',
     width: 4,
-    height: 4,
-    title: 'Slovenia 2020',
+    height: 8,
+    title: 'Barcelona 2018',
   },
+  // {
+  //   src: 'https://i.imgur.com/O4JykxV.jpg',
+  //   width: 4,
+  //   height: 4,
+  //   title: 'Slovenia 2020',
+  // },
   {
     src: 'https://i.imgur.com/XX5D3sI.jpg',
     width: 8,
@@ -35,30 +41,20 @@ export const photos = [
     height: 4,
     title: 'Lake Bled, Slovenia 2020',
   },
-  {
-    src: 'https://i.imgur.com/reF4Kvv.jpg',
-    width: 4,
-    height: 8,
-    title: 'Barcelona 2018',
-  },
-  {
-    src: 'https://i.imgur.com/UbUHyev.jpg',
-    width: 4,
-    height: 4,
-    title: 'Mount Batur, Indonesia 2018',
-  },
+
+  // {
+  //   src: 'https://i.imgur.com/UbUHyev.jpg',
+  //   width: 4,
+  //   height: 4,
+  //   title: 'Mount Batur, Indonesia 2018',
+  // },
   {
     src: 'https://i.imgur.com/Pf7mVz1.jpg',
     width: 4,
     height: 4,
     title: 'Mount Batur, Indonesia 2018',
   },
-  {
-    src: 'https://i.imgur.com/2z1dVLr.jpg',
-    width: 12,
-    height: 4,
-    title: 'Iceland 2019',
-  },
+
   {
     src: 'https://i.imgur.com/MG0qAr5.jpg',
     width: 4,
@@ -72,10 +68,64 @@ export const photos = [
     title: 'Phi Phi Islands, Thailand 2018',
   },
   {
+    src: 'https://i.imgur.com/2z1dVLr.jpg',
+    width: 12,
+    height: 4,
+    title: 'Iceland 2019',
+  },
+  {
+    src: 'https://i.imgur.com/OK80KSS.jpg',
+    width: 8,
+    height: 4,
+    title: 'Paris, France 2020',
+  },
+  {
     src: 'https://i.imgur.com/oCQBHdZ.jpg',
     width: 4,
     height: 4,
     title: 'Eligh - D.O.B 30/01/20',
+  },
+  {
+    src: 'https://i.imgur.com/9Hs4doL.jpg',
+    width: 8,
+    height: 4,
+    title: 'Paris, France 2020',
+  },
+  {
+    src: 'https://i.imgur.com/M5Q60E9.jpg',
+    width: 4,
+    height: 4,
+    title: 'Thailand 2018',
+  },
+  {
+    src: 'https://i.imgur.com/8HhS10y.jpg',
+    width: 8,
+    height: 4,
+    title: 'Iceland 2019',
+  },
+  {
+    src: 'https://i.imgur.com/6Dha0RU.jpg',
+    width: 4,
+    height: 4,
+    title: 'Slovenia 2020',
+  },
+  {
+    src: 'https://i.imgur.com/pTru0r6.jpg',
+    width: 4,
+    height: 4,
+    title: 'Iceland 2019',
+  },
+  {
+    src: 'https://i.imgur.com/O0Y5aVf.jpg',
+    width: 4,
+    height: 4,
+    title: 'Cappadocia, Turkey 2017',
+  },
+  {
+    src: 'https://i.imgur.com/ZvkX5Ty.jpg',
+    width: 8,
+    height: 4,
+    title: 'Dunsfold Aerodrome, 2019',
   }
 
 ]

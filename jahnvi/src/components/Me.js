@@ -24,7 +24,7 @@ const Me = () => {
   return (
     <div id="me" className="new-page-three">
       <h3 className="projects-header">Me.</h3>
-      <h6 className="projects-header">my life in pictures</h6>
+      <h6 className="projects-header">my life in pictures.</h6>
       <div className="template-div-gallery">
         <Gallery photos={photos} margin={10} onClick={openLightbox} />
         <ModalGateway>
