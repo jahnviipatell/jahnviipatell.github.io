@@ -5,9 +5,8 @@ import GitHub from './assets/pngjoy.com_telegram-icon-github-icon-png-white-png-
 
 const Footer = () => {
 
-  const [copySuccess, setCopySuccess] = useState(null)
+  const [copySuccess, setCopySuccess] = useState('')
 
-  // useEffect(() => {
   const copyToClipBoard = async copyMe => {
     try {
       await navigator.clipboard.writeText(copyMe)
@@ -16,9 +15,7 @@ const Footer = () => {
       setCopySuccess('Failed to copy!')
     }
   }
-  // }, [])
 
-  // if (!copySuccess) return null
 
   return (
     <div className="footer">
