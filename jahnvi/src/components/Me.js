@@ -26,7 +26,7 @@ const Me = () => {
       <h3 className="projects-header">Me.</h3>
       <h6 className="projects-header">my life in pictures</h6>
       <div>
-        <Gallery photos={photos} onClick={openLightbox} />
+        <Gallery photos={photos} margin={50} onClick={openLightbox} />
         <ModalGateway>
           {viewerIsOpen ? (
             <Modal onClose={closeLightbox}>
